@@ -7,7 +7,7 @@ setup(
       description='Infinite Latent Feature Models and the Indian Buffet Process',
       author='Wenwen Ye, Kuazhuo Zhang',
       license='BSD',
-      packages=['IBP'],,
+      packages=['IBP'],
       include_package_data=True,
       zip_safe=False,
       entry_points={
