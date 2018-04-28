@@ -1,5 +1,5 @@
 from os.path import dirname, join
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
       name='IBP',
@@ -8,7 +8,7 @@ setup(
       description='Infinite Latent Feature Models and the Indian Buffet Process',
       author='Wenwen Ye, Kuazhuo Zhang',
       license='BSD',
-      packages=['IBP'],
+      packages=find_packages(exclude=('tests', 'tests.*')),
       include_package_data=True,
       zip_safe=False,
       entry_points={
