@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
       name='IBP',
       version=1.0,
-      url='https://github.com/Beceelaine/Indian-Buffet-Process',
+      url='https://github.com/Beceelaine/IBP',
       description='Infinite Latent Feature Models and the Indian Buffet Process',
       author='Wenwen Ye, Kuazhuo Zhang',
       license='BSD',
